@@ -1,6 +1,6 @@
 # Agent guide
 
-This file is the map for agents working with [i-have-adhd](https://github.com/ayghri/i-have-adhd). Read it after locating or installing the repository. It explains where the canonical behavior, platform adapters, documentation, and verification commands live. It does not replace the skill rules in `skills/i-have-adhd/SKILL.md`.
+This file is the map for agents working with [i-have-adhd](https://github.com/beefs/i-have-adhd). Read it after locating or installing the repository. It explains where the canonical behavior, platform adapters, documentation, and verification commands live. It does not replace the skill rules in `skills/i-have-adhd/SKILL.md`.
 
 ## Start here
 
@@ -26,7 +26,7 @@ Agents may read and reference any GitHub issue or pull request. Commenting has n
 
 | Area | Location | Purpose |
 | --- | --- | --- |
-| Canonical skill | `skills/i-have-adhd/SKILL.md` | The source of truth for the 10 ADHD-friendly response rules. |
+| Canonical skill | `skills/i-have-adhd/SKILL.md` | The source of truth for the 9 ADHD-friendly response rules. |
 | Skill mirror | `.cursor/skills/i-have-adhd/SKILL.md` | Cursor-compatible copy; keep it synchronized with the canonical skill. |
 | Claude and Codex metadata | `.claude-plugin/`, `.codex-plugin/`, `.agents/plugins/` | Plugin manifests and marketplace metadata. |
 | Shared hooks | `hooks/hooks.json`, `hooks/always-on.*` | Hook declarations and cross-platform always-on behavior. |

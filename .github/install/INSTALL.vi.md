@@ -6,7 +6,7 @@
 ### Cài đặt
 
 ```bash
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### Xác minh
@@ -19,7 +19,7 @@ agy plugin list
 
 ```bash
 agy plugin uninstall i-have-adhd
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### Gỡ cài đặt
@@ -44,11 +44,10 @@ Người đọc có ADHD. Hãy định dạng mọi phản hồi để họ có 
 3. Kết thúc bằng một hành động tiếp theo có thể làm trong chưa đến hai phút.
 4. Hoàn tất vấn đề hiện tại trước khi nêu vấn đề mới.
 5. Nhắc lại tiến độ ở mỗi lượt ("đã xong bước 3/5").
-6. Ước tính thời gian bằng đơn vị cụ thể, không nói "một chút".
-7. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
-8. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
-9. Giới hạn danh sách ở 5 mục.
-10. Không mở đầu, không tóm tắt lại, không lời kết.
+6. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
+7. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
+8. Giới hạn danh sách ở 5 mục.
+9. Không mở đầu, không tóm tắt lại, không lời kết.
 
 Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận trước thao tác phá hủy dữ liệu. Sau ba lần sửa thất bại, dừng lại và nêu giả định đáng ngờ. Nếu yêu cầu mơ hồ, hãy hỏi một câu ngắn.
 ```
@@ -61,7 +60,7 @@ Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận tr
 ### Cài đặt
 
 ```bash
-claude plugin marketplace add ayghri/i-have-adhd
+claude plugin marketplace add beefs/i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
 
@@ -120,7 +119,7 @@ Hook chỉ chạy khi tệp cờ tồn tại, vì vậy chỉ cài plugin sẽ k
 ### Cài đặt
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
+codex plugin marketplace add beefs/i-have-adhd --ref main
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
@@ -161,11 +160,10 @@ Người đọc có ADHD. Hãy định dạng mọi phản hồi để họ có 
 3. Kết thúc bằng một hành động tiếp theo có thể làm trong chưa đến hai phút.
 4. Hoàn tất vấn đề hiện tại trước khi nêu vấn đề mới.
 5. Nhắc lại tiến độ ở mỗi lượt ("đã xong bước 3/5").
-6. Ước tính thời gian bằng đơn vị cụ thể, không nói "một chút".
-7. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
-8. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
-9. Giới hạn danh sách ở 5 mục.
-10. Không mở đầu, không tóm tắt lại, không lời kết.
+6. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
+7. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
+8. Giới hạn danh sách ở 5 mục.
+9. Không mở đầu, không tóm tắt lại, không lời kết.
 
 Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận trước thao tác phá hủy dữ liệu. Sau ba lần sửa thất bại, dừng lại và nêu giả định đáng ngờ. Nếu yêu cầu mơ hồ, hãy hỏi một câu ngắn.
 ```
@@ -181,7 +179,7 @@ Gemini CLI không có chợ plugin nên có hai cách tích hợp sẵn: **lện
 
 ```bash
 mkdir -p ~/.gemini/commands
-curl -fsSL https://raw.githubusercontent.com/ayghri/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
+curl -fsSL https://raw.githubusercontent.com/beefs/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
   -o ~/.gemini/commands/i-have-adhd.toml
 ```
 
@@ -190,7 +188,7 @@ Bắt đầu phiên mới và gõ `/i-have-adhd`. Skill sẽ bật trong suốt 
 ### Cài đặt (extension, always-on)
 
 ```bash
-gemini extensions install https://github.com/ayghri/i-have-adhd
+gemini extensions install https://github.com/beefs/i-have-adhd
 ```
 
 Extension tải `GEMINI.md`, tệp nhập toàn bộ skill, nên quy tắc được áp dụng từ tin nhắn đầu tiên. Máy phải cài `git`.
@@ -228,14 +226,14 @@ Copilot đọc Agent Skills trực tiếp: cùng một `SKILL.md`, không cần 
 ### Cài đặt
 
 ```bash
-npx skills add ayghri/i-have-adhd -a github-copilot        # dự án này
-npx skills add ayghri/i-have-adhd -a github-copilot -g     # mọi dự án
+npx skills add beefs/i-have-adhd -a github-copilot        # dự án này
+npx skills add beefs/i-have-adhd -a github-copilot -g     # mọi dự án
 ```
 
 Nếu không dùng CLI, hãy sao chép thư mục skill vào bất kỳ thư mục nào Copilot quét:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.copilot/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.copilot/skills/
 ```
@@ -283,11 +281,10 @@ Người đọc có ADHD. Hãy định dạng mọi phản hồi để họ có 
 3. Kết thúc bằng một hành động tiếp theo có thể làm trong chưa đến hai phút.
 4. Hoàn tất vấn đề hiện tại trước khi nêu vấn đề mới.
 5. Nhắc lại tiến độ ở mỗi lượt ("đã xong bước 3/5").
-6. Ước tính thời gian bằng đơn vị cụ thể, không nói "một chút".
-7. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
-8. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
-9. Giới hạn danh sách ở 5 mục.
-10. Không mở đầu, không tóm tắt lại, không lời kết.
+6. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
+7. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
+8. Giới hạn danh sách ở 5 mục.
+9. Không mở đầu, không tóm tắt lại, không lời kết.
 
 Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận trước thao tác phá hủy dữ liệu. Sau ba lần sửa thất bại, dừng lại và nêu giả định đáng ngờ. Nếu yêu cầu mơ hồ, hãy hỏi một câu ngắn.
 ```
@@ -300,7 +297,7 @@ Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận tr
 ### Cài đặt
 
 ```bash
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 Gõ `/i-have-adhd`. The skill installs into `~/.hermes/skills/` and is exposed as a slash command at the next session start.
@@ -308,9 +305,9 @@ Gõ `/i-have-adhd`. The skill installs into `~/.hermes/skills/` and is exposed a
 Muốn xem trước? Thêm repo này làm nguồn skill (một "tap"), rồi tìm kiếm và cài đặt:
 
 ```bash
-hermes skills tap add ayghri/i-have-adhd
+hermes skills tap add beefs/i-have-adhd
 hermes skills search adhd
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 ### Xác minh
@@ -331,7 +328,7 @@ hermes skills update i-have-adhd
 hermes skills uninstall i-have-adhd
 ```
 
-Hoặc xóa cả tap bằng `hermes skills tap remove ayghri/i-have-adhd`.
+Hoặc xóa cả tap bằng `hermes skills tap remove beefs/i-have-adhd`.
 
 ### Luôn bật (không bắt buộc)
 
@@ -347,11 +344,10 @@ Người đọc có ADHD. Hãy định dạng mọi phản hồi để họ có 
 3. Kết thúc bằng một hành động tiếp theo có thể làm trong chưa đến hai phút.
 4. Hoàn tất vấn đề hiện tại trước khi nêu vấn đề mới.
 5. Nhắc lại tiến độ ở mỗi lượt ("đã xong bước 3/5").
-6. Ước tính thời gian bằng đơn vị cụ thể, không nói "một chút".
-7. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
-8. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
-9. Giới hạn danh sách ở 5 mục.
-10. Không mở đầu, không tóm tắt lại, không lời kết.
+6. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
+7. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
+8. Giới hạn danh sách ở 5 mục.
+9. Không mở đầu, không tóm tắt lại, không lời kết.
 
 Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận trước thao tác phá hủy dữ liệu. Sau ba lần sửa thất bại, dừng lại và nêu giả định đáng ngờ. Nếu yêu cầu mơ hồ, hãy hỏi một câu ngắn.
 ```
@@ -367,7 +363,7 @@ Hãy bắt đầu một phiên Kimi Code, rồi:
 
 1. Chạy `/plugins`.
 2. Chọn **Custom**.
-3. Dán `https://github.com/ayghri/i-have-adhd` rồi nhấn Enter.
+3. Dán `https://github.com/beefs/i-have-adhd` rồi nhấn Enter.
 4. Chọn **Trust and install**.
 
 Dùng lệnh slash `/skill:i-have-adhd` để gọi skill một cách rõ ràng.
@@ -393,7 +389,7 @@ Plugin hỗ trợ OpenCode V1 **từ 1.18.29** và V2. Plugin đăng ký skill, 
 Để dùng trong mọi dự án:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
 mkdir -p ~/.config/opencode/plugins
 cat > ~/.config/opencode/plugins/i-have-adhd.js <<'EOF'
 export { default } from '../vendor/i-have-adhd/.opencode/plugins/i-have-adhd.mjs';
@@ -456,13 +452,13 @@ Pi triển khai chuẩn Agent Skills nên tải trực tiếp cùng một `SKILL
 ### Cài đặt
 
 ```bash
-npx skills add ayghri/i-have-adhd -a pi -y
+npx skills add beefs/i-have-adhd -a pi -y
 ```
 
 Muốn dùng hệ thống tệp? Pi tìm skill trong `~/.pi/agent/skills/` và `~/.agents/skills/` (toàn cục), cùng `.pi/skills/` và `.agents/skills/` (dự án):
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.pi/agent/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.pi/agent/skills/
 ```
@@ -513,11 +509,10 @@ Người đọc có ADHD. Hãy định dạng mọi phản hồi để họ có 
 3. Kết thúc bằng một hành động tiếp theo có thể làm trong chưa đến hai phút.
 4. Hoàn tất vấn đề hiện tại trước khi nêu vấn đề mới.
 5. Nhắc lại tiến độ ở mỗi lượt ("đã xong bước 3/5").
-6. Ước tính thời gian bằng đơn vị cụ thể, không nói "một chút".
-7. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
-8. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
-9. Giới hạn danh sách ở 5 mục.
-10. Không mở đầu, không tóm tắt lại, không lời kết.
+6. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
+7. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
+8. Giới hạn danh sách ở 5 mục.
+9. Không mở đầu, không tóm tắt lại, không lời kết.
 
 Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận trước thao tác phá hủy dữ liệu. Sau ba lần sửa thất bại, dừng lại và nêu giả định đáng ngờ. Nếu yêu cầu mơ hồ, hãy hỏi một câu ngắn.
 ```
@@ -531,7 +526,7 @@ Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận tr
 ### Cài đặt
 
 ```bash
-qwen extensions install ayghri/i-have-adhd
+qwen extensions install beefs/i-have-adhd
 ```
 
 Qwen Code hỗ trợ dạng viết tắt GitHub và cài kho lưu trữ này dưới dạng extension gốc. Extension sẽ phát hiện skill trong `skills/`.
@@ -576,7 +571,7 @@ Agent của Zed đọc Agent Skills trực tiếp: cùng một `SKILL.md`, khôn
 Trong Agent Panel, mở trình quản lý Skills, chọn **Create skill from URL** (cũng có trong bảng lệnh dưới tên `agent: create skill from url`), rồi dán:
 
 ```
-https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
+https://github.com/beefs/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
 ```
 
 Lưu ở phạm vi **User** cho mọi dự án hoặc **Project** cho một dự án. Sau đó gõ `/i-have-adhd` trong Agent Panel.
@@ -584,7 +579,7 @@ Lưu ở phạm vi **User** cho mọi dự án hoặc **Project** cho một dự
 Muốn dùng hệ thống tệp? Clone repo và đặt thư mục skill vào thư mục skills của người dùng:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.agents/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.agents/skills/
 ```
@@ -615,11 +610,10 @@ Người đọc có ADHD. Hãy định dạng mọi phản hồi để họ có 
 3. Kết thúc bằng một hành động tiếp theo có thể làm trong chưa đến hai phút.
 4. Hoàn tất vấn đề hiện tại trước khi nêu vấn đề mới.
 5. Nhắc lại tiến độ ở mỗi lượt ("đã xong bước 3/5").
-6. Ước tính thời gian bằng đơn vị cụ thể, không nói "một chút".
-7. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
-8. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
-9. Giới hạn danh sách ở 5 mục.
-10. Không mở đầu, không tóm tắt lại, không lời kết.
+6. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
+7. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
+8. Giới hạn danh sách ở 5 mục.
+9. Không mở đầu, không tóm tắt lại, không lời kết.
 
 Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận trước thao tác phá hủy dữ liệu. Sau ba lần sửa thất bại, dừng lại và nêu giả định đáng ngờ. Nếu yêu cầu mơ hồ, hãy hỏi một câu ngắn.
 ```
@@ -634,10 +628,10 @@ Hoạt động với mọi môi trường đọc Agent Skills. Thay `-a <agent>`
 ### Cài đặt
 
 ```bash
-npx skills add ayghri/i-have-adhd                  # this workspace
-npx skills add ayghri/i-have-adhd -g               # mọi dự án
-npx skills add ayghri/i-have-adhd -a cursor -y     # one agent only
-npx skills add ayghri/i-have-adhd -a opencode -y
+npx skills add beefs/i-have-adhd                  # this workspace
+npx skills add beefs/i-have-adhd -g               # mọi dự án
+npx skills add beefs/i-have-adhd -a cursor -y     # one agent only
+npx skills add beefs/i-have-adhd -a opencode -y
 ```
 
 Mở cuộc chat agent mới và gõ `/i-have-adhd`.
@@ -645,7 +639,7 @@ Mở cuộc chat agent mới và gõ `/i-have-adhd`.
 Nếu không dùng CLI, sao chép thư mục skill vào đường dẫn mà agent quét:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.cursor/skills     # Cursor. Dùng .agents/skills cho OpenCode hoặc đường dẫn riêng của agent
 cp -R i-have-adhd/skills/i-have-adhd ~/.cursor/skills/
 ```
@@ -685,11 +679,10 @@ Người đọc có ADHD. Hãy định dạng mọi phản hồi để họ có 
 3. Kết thúc bằng một hành động tiếp theo có thể làm trong chưa đến hai phút.
 4. Hoàn tất vấn đề hiện tại trước khi nêu vấn đề mới.
 5. Nhắc lại tiến độ ở mỗi lượt ("đã xong bước 3/5").
-6. Ước tính thời gian bằng đơn vị cụ thể, không nói "một chút".
-7. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
-8. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
-9. Giới hạn danh sách ở 5 mục.
-10. Không mở đầu, không tóm tắt lại, không lời kết.
+6. Sau khi thay đổi, hãy cho biết điều gì hiện đã hoạt động.
+7. Với lỗi, nêu vị trí, nguyên nhân và cách sửa một cách khách quan.
+8. Giới hạn danh sách ở 5 mục.
+9. Không mở đầu, không tóm tắt lại, không lời kết.
 
 Ngoại lệ: giải thích đầy đủ khi được yêu cầu. Xác nhận trước thao tác phá hủy dữ liệu. Sau ba lần sửa thất bại, dừng lại và nêu giả định đáng ngờ. Nếu yêu cầu mơ hồ, hãy hỏi một câu ngắn.
 ```

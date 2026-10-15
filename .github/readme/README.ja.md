@@ -5,7 +5,7 @@
   <strong align="center">ADHDに配慮した簡潔な出力。（診断済みかは関係なく、誰でも気軽に使えます！）</strong>
 </p>
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="ライセンス"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/beefs/i-have-adhd?style=flat" alt="ライセンス"></a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 CLIのプロンプトに以下をコピー＆ペーストしてください：
 
 ```text
-Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+Install the i-have-adhd skill/plugin from https://github.com/beefs/i-have-adhd, refer to the repo's AGENTS.md for instructions.
 ```
 
 または、🔗 [インストール手順を確認する](../install/INSTALL.ja.md)。
@@ -64,20 +64,19 @@ Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd,
 </tr>
 </table>
 
-## 10のルール
+## 9つのルール
 
-ルールは10個。全文は [SKILL.md](../../skills/i-have-adhd/SKILL.md) を参照してください。
+ルールは9個。全文は [SKILL.md](../../skills/i-have-adhd/SKILL.md) を参照してください。
 
 1. 次に取る行動から始める。
 2. 複数ステップの作業には番号を付ける。
 3. 2分以内にできる具体的な次の一手で終える。
 4. 脱線を防ぐ。
 5. ターンごとに現在の進捗・状態を明記する。
-6. 所要時間は「少し」ではなく分単位で具体的に示す。
-7. 変更後に何が動くようになったかを明示する。
-8. エラーは場所・原因・対処法だけを淡々と伝える。
-9. リストは最大5項目までに抑える。
-10. 前置き・要約・締めの挨拶は入れない。
+6. 変更後に何が動くようになったかを明示する。
+7. エラーは場所・原因・対処法だけを淡々と伝える。
+8. リストは最大5項目までに抑える。
+9. 前置き・要約・締めの挨拶は入れない。
 
 ## カスタマイズ
 

@@ -6,7 +6,7 @@
 ### Instalar
 
 ```bash
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### Verificar
@@ -19,7 +19,7 @@ agy plugin list
 
 ```bash
 agy plugin uninstall i-have-adhd
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### Desinstalar
@@ -44,11 +44,10 @@ A pessoa que lê tem TDAH. Estruture cada resposta para que ela possa agir:
 3. Termine com uma próxima ação que possa ser feita em menos de dois minutos.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno ("etapa 3 de 5 concluída").
-6. Dê estimativas de tempo em unidades concretas, nunca "um pouco".
-7. Após uma alteração, mostre o que agora funciona.
-8. Erros: informe local, causa e correção, sem drama.
-9. Limite listas a 5 itens.
-10. Sem preâmbulo, recapitulação ou despedida.
+6. Após uma alteração, mostre o que agora funciona.
+7. Erros: informe local, causa e correção, sem drama.
+8. Limite listas a 5 itens.
+9. Sem preâmbulo, recapitulação ou despedida.
 
 Exceções: explique por completo quando pedirem. Confirme antes de ações destrutivas. Após três tentativas de correção sem sucesso, pare e identifique a suposição duvidosa. Se o pedido for ambíguo, faça uma pergunta curta.
 ```
@@ -61,7 +60,7 @@ Exceções: explique por completo quando pedirem. Confirme antes de ações dest
 ### Instalar
 
 ```bash
-claude plugin marketplace add ayghri/i-have-adhd
+claude plugin marketplace add beefs/i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
 
@@ -120,7 +119,7 @@ O hook só é executado quando o arquivo de sinalização existe, portanto insta
 ### Instalar
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
+codex plugin marketplace add beefs/i-have-adhd --ref main
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
@@ -161,11 +160,10 @@ A pessoa que lê tem TDAH. Estruture cada resposta para que ela possa agir:
 3. Termine com uma próxima ação que possa ser feita em menos de dois minutos.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno ("etapa 3 de 5 concluída").
-6. Dê estimativas de tempo em unidades concretas, nunca "um pouco".
-7. Após uma alteração, mostre o que agora funciona.
-8. Erros: informe local, causa e correção, sem drama.
-9. Limite listas a 5 itens.
-10. Sem preâmbulo, recapitulação ou despedida.
+6. Após uma alteração, mostre o que agora funciona.
+7. Erros: informe local, causa e correção, sem drama.
+8. Limite listas a 5 itens.
+9. Sem preâmbulo, recapitulação ou despedida.
 
 Exceções: explique por completo quando pedirem. Confirme antes de ações destrutivas. Após três tentativas de correção sem sucesso, pare e identifique a suposição duvidosa. Se o pedido for ambíguo, faça uma pergunta curta.
 ```
@@ -181,7 +179,7 @@ O Gemini CLI não tem marketplace de plugins, então há duas opções nativas: 
 
 ```bash
 mkdir -p ~/.gemini/commands
-curl -fsSL https://raw.githubusercontent.com/ayghri/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
+curl -fsSL https://raw.githubusercontent.com/beefs/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
   -o ~/.gemini/commands/i-have-adhd.toml
 ```
 
@@ -190,7 +188,7 @@ Inicie uma nova sessão e digite `/i-have-adhd`. A skill permanecerá ativa dura
 ### Instalar (extension, always-on)
 
 ```bash
-gemini extensions install https://github.com/ayghri/i-have-adhd
+gemini extensions install https://github.com/beefs/i-have-adhd
 ```
 
 A extensão carrega `GEMINI.md`, que importa a skill completa; assim, as regras valem desde a primeira mensagem. O `git` precisa estar instalado.
@@ -228,14 +226,14 @@ O Copilot lê Agent Skills nativamente: usa o mesmo `SKILL.md`, sem conversão. 
 ### Instalar
 
 ```bash
-npx skills add ayghri/i-have-adhd -a github-copilot        # este projeto
-npx skills add ayghri/i-have-adhd -a github-copilot -g     # todos os projetos
+npx skills add beefs/i-have-adhd -a github-copilot        # este projeto
+npx skills add beefs/i-have-adhd -a github-copilot -g     # todos os projetos
 ```
 
 Sem a CLI, copie a pasta da skill para qualquer diretório verificado pelo Copilot:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.copilot/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.copilot/skills/
 ```
@@ -283,11 +281,10 @@ A pessoa que lê tem TDAH. Estruture cada resposta para que ela possa agir:
 3. Termine com uma próxima ação que possa ser feita em menos de dois minutos.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno ("etapa 3 de 5 concluída").
-6. Dê estimativas de tempo em unidades concretas, nunca "um pouco".
-7. Após uma alteração, mostre o que agora funciona.
-8. Erros: informe local, causa e correção, sem drama.
-9. Limite listas a 5 itens.
-10. Sem preâmbulo, recapitulação ou despedida.
+6. Após uma alteração, mostre o que agora funciona.
+7. Erros: informe local, causa e correção, sem drama.
+8. Limite listas a 5 itens.
+9. Sem preâmbulo, recapitulação ou despedida.
 
 Exceções: explique por completo quando pedirem. Confirme antes de ações destrutivas. Após três tentativas de correção sem sucesso, pare e identifique a suposição duvidosa. Se o pedido for ambíguo, faça uma pergunta curta.
 ```
@@ -300,7 +297,7 @@ Exceções: explique por completo quando pedirem. Confirme antes de ações dest
 ### Instalar
 
 ```bash
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 Digite `/i-have-adhd`. The skill installs into `~/.hermes/skills/` and is exposed as a slash command at the next session start.
@@ -308,9 +305,9 @@ Digite `/i-have-adhd`. The skill installs into `~/.hermes/skills/` and is expose
 Prefere explorar primeiro? Adicione este repositório como fonte de skills (um "tap"), depois pesquise e instale:
 
 ```bash
-hermes skills tap add ayghri/i-have-adhd
+hermes skills tap add beefs/i-have-adhd
 hermes skills search adhd
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 ### Verificar
@@ -331,7 +328,7 @@ hermes skills update i-have-adhd
 hermes skills uninstall i-have-adhd
 ```
 
-Ou remova também o tap: `hermes skills tap remove ayghri/i-have-adhd`.
+Ou remova também o tap: `hermes skills tap remove beefs/i-have-adhd`.
 
 ### Sempre ativo (opcional)
 
@@ -347,11 +344,10 @@ A pessoa que lê tem TDAH. Estruture cada resposta para que ela possa agir:
 3. Termine com uma próxima ação que possa ser feita em menos de dois minutos.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno ("etapa 3 de 5 concluída").
-6. Dê estimativas de tempo em unidades concretas, nunca "um pouco".
-7. Após uma alteração, mostre o que agora funciona.
-8. Erros: informe local, causa e correção, sem drama.
-9. Limite listas a 5 itens.
-10. Sem preâmbulo, recapitulação ou despedida.
+6. Após uma alteração, mostre o que agora funciona.
+7. Erros: informe local, causa e correção, sem drama.
+8. Limite listas a 5 itens.
+9. Sem preâmbulo, recapitulação ou despedida.
 
 Exceções: explique por completo quando pedirem. Confirme antes de ações destrutivas. Após três tentativas de correção sem sucesso, pare e identifique a suposição duvidosa. Se o pedido for ambíguo, faça uma pergunta curta.
 ```
@@ -367,7 +363,7 @@ Inicie uma sessão do Kimi Code e:
 
 1. Execute `/plugins`.
 2. Selecione **Custom**.
-3. Cole `https://github.com/ayghri/i-have-adhd` e pressione Enter.
+3. Cole `https://github.com/beefs/i-have-adhd` e pressione Enter.
 4. Selecione **Trust and install**.
 
 Use o comando slash `/skill:i-have-adhd` para invocar a skill explicitamente.
@@ -393,7 +389,7 @@ O plugin suporta OpenCode V1 **1.18.29 ou superior** e V2. Registra a skill e o 
 Para usar em todos os projetos:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
 mkdir -p ~/.config/opencode/plugins
 cat > ~/.config/opencode/plugins/i-have-adhd.js <<'EOF'
 export { default } from '../vendor/i-have-adhd/.opencode/plugins/i-have-adhd.mjs';
@@ -456,13 +452,13 @@ O Pi implementa o padrão Agent Skills, portanto o mesmo `SKILL.md` é carregado
 ### Instalar
 
 ```bash
-npx skills add ayghri/i-have-adhd -a pi -y
+npx skills add beefs/i-have-adhd -a pi -y
 ```
 
 Prefere usar o sistema de arquivos? O Pi encontra skills em `~/.pi/agent/skills/` e `~/.agents/skills/` (global), e em `.pi/skills/` e `.agents/skills/` (projeto):
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.pi/agent/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.pi/agent/skills/
 ```
@@ -513,11 +509,10 @@ A pessoa que lê tem TDAH. Estruture cada resposta para que ela possa agir:
 3. Termine com uma próxima ação que possa ser feita em menos de dois minutos.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno ("etapa 3 de 5 concluída").
-6. Dê estimativas de tempo em unidades concretas, nunca "um pouco".
-7. Após uma alteração, mostre o que agora funciona.
-8. Erros: informe local, causa e correção, sem drama.
-9. Limite listas a 5 itens.
-10. Sem preâmbulo, recapitulação ou despedida.
+6. Após uma alteração, mostre o que agora funciona.
+7. Erros: informe local, causa e correção, sem drama.
+8. Limite listas a 5 itens.
+9. Sem preâmbulo, recapitulação ou despedida.
 
 Exceções: explique por completo quando pedirem. Confirme antes de ações destrutivas. Após três tentativas de correção sem sucesso, pare e identifique a suposição duvidosa. Se o pedido for ambíguo, faça uma pergunta curta.
 ```
@@ -531,7 +526,7 @@ Exceções: explique por completo quando pedirem. Confirme antes de ações dest
 ### Instalar
 
 ```bash
-qwen extensions install ayghri/i-have-adhd
+qwen extensions install beefs/i-have-adhd
 ```
 
 O Qwen Code aceita a forma abreviada do GitHub e instala o repositório como extensão nativa. A extensão encontra a skill em `skills/`.
@@ -576,7 +571,7 @@ O Agent do Zed lê Agent Skills nativamente: usa o mesmo `SKILL.md`, sem convers
 No Agent Panel, abra o gerenciador de Skills, escolha **Create skill from URL** (também disponível na paleta como `agent: create skill from url`) e cole:
 
 ```
-https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
+https://github.com/beefs/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
 ```
 
 Salve no escopo **User** para todos os projetos ou **Project** para apenas um. Depois, digite `/i-have-adhd` no Agent Panel.
@@ -584,7 +579,7 @@ Salve no escopo **User** para todos os projetos ou **Project** para apenas um. D
 Prefere o sistema de arquivos? Clone o repositório e coloque a pasta da skill no diretório de skills do usuário:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.agents/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.agents/skills/
 ```
@@ -615,11 +610,10 @@ A pessoa que lê tem TDAH. Estruture cada resposta para que ela possa agir:
 3. Termine com uma próxima ação que possa ser feita em menos de dois minutos.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno ("etapa 3 de 5 concluída").
-6. Dê estimativas de tempo em unidades concretas, nunca "um pouco".
-7. Após uma alteração, mostre o que agora funciona.
-8. Erros: informe local, causa e correção, sem drama.
-9. Limite listas a 5 itens.
-10. Sem preâmbulo, recapitulação ou despedida.
+6. Após uma alteração, mostre o que agora funciona.
+7. Erros: informe local, causa e correção, sem drama.
+8. Limite listas a 5 itens.
+9. Sem preâmbulo, recapitulação ou despedida.
 
 Exceções: explique por completo quando pedirem. Confirme antes de ações destrutivas. Após três tentativas de correção sem sucesso, pare e identifique a suposição duvidosa. Se o pedido for ambíguo, faça uma pergunta curta.
 ```
@@ -634,10 +628,10 @@ Funciona com qualquer ambiente que leia Agent Skills. Troque `-a <agent>` pelo s
 ### Instalar
 
 ```bash
-npx skills add ayghri/i-have-adhd                  # this workspace
-npx skills add ayghri/i-have-adhd -g               # todos os projetos
-npx skills add ayghri/i-have-adhd -a cursor -y     # one agent only
-npx skills add ayghri/i-have-adhd -a opencode -y
+npx skills add beefs/i-have-adhd                  # this workspace
+npx skills add beefs/i-have-adhd -g               # todos os projetos
+npx skills add beefs/i-have-adhd -a cursor -y     # one agent only
+npx skills add beefs/i-have-adhd -a opencode -y
 ```
 
 Abra um novo chat do agente e digite `/i-have-adhd`.
@@ -645,7 +639,7 @@ Abra um novo chat do agente e digite `/i-have-adhd`.
 Sem a CLI, copie a pasta da skill para o caminho verificado pelo seu agente:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.cursor/skills     # Cursor. Use .agents/skills no OpenCode ou o caminho próprio do agente
 cp -R i-have-adhd/skills/i-have-adhd ~/.cursor/skills/
 ```
@@ -685,11 +679,10 @@ A pessoa que lê tem TDAH. Estruture cada resposta para que ela possa agir:
 3. Termine com uma próxima ação que possa ser feita em menos de dois minutos.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno ("etapa 3 de 5 concluída").
-6. Dê estimativas de tempo em unidades concretas, nunca "um pouco".
-7. Após uma alteração, mostre o que agora funciona.
-8. Erros: informe local, causa e correção, sem drama.
-9. Limite listas a 5 itens.
-10. Sem preâmbulo, recapitulação ou despedida.
+6. Após uma alteração, mostre o que agora funciona.
+7. Erros: informe local, causa e correção, sem drama.
+8. Limite listas a 5 itens.
+9. Sem preâmbulo, recapitulação ou despedida.
 
 Exceções: explique por completo quando pedirem. Confirme antes de ações destrutivas. Após três tentativas de correção sem sucesso, pare e identifique a suposição duvidosa. Se o pedido for ambíguo, faça uma pergunta curta.
 ```

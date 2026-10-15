@@ -5,7 +5,7 @@
   <strong align="center">خروجی‌های سازگار با ADHD. نیازی به تشخیص پزشکی نیست!</strong>
 </p>
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="مجوز"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/beefs/i-have-adhd?style=flat" alt="مجوز"></a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 به طور خلاصه، در اکثر ابزارها می‌توانید با دستور زیر شروع کنید:
 
 ```text
-Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+Install the i-have-adhd skill/plugin from https://github.com/beefs/i-have-adhd, refer to the repo's AGENTS.md for instructions.
 ```
 
 🔗 [مشاهده راهنمای نصب](../install/INSTALL.fa.md)
@@ -69,18 +69,17 @@ Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd,
 
 ## قوانین
 
-۱۰ قانون ساده. متن کامل در [SKILL.md](../../skills/i-have-adhd/SKILL.md).
+۹ قانون ساده. متن کامل در [SKILL.md](../../skills/i-have-adhd/SKILL.md).
 
 1. همیشه با اقدام بعدی شروع کن.
 2. کارهای چندمرحله‌ای را شماره‌گذاری کن.
 3. هر پاسخ را با یک قدم مشخص تمام کن.
 4. از حاشیه رفتن پرهیز کن.
 5. هر دور وضعیت فعلی را دوباره بیان کن.
-6. زمان تخمینی دقیق بده (دقیقه، نه «یه کم»).
-7. پیشرفت‌ها را واضح نشان بده.
-8. خطاها را بدون احساسات گزارش کن.
-9. لیست‌ها حداکثر ۵ مورد.
-10. بدون مقدمه، بدون خلاصه، بدون جمله پایانی.
+6. پیشرفت‌ها را واضح نشان بده.
+7. خطاها را بدون احساسات گزارش کن.
+8. لیست‌ها حداکثر ۵ مورد.
+9. بدون مقدمه، بدون خلاصه، بدون جمله پایانی.
 
 
 ## شخصی‌سازی
