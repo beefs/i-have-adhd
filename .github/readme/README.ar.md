@@ -5,7 +5,7 @@
   <strong align="center">إجابات موجزة ومناسبة للمصابين باضطراب فرط الحركة وتشتت الانتباه. لا حاجة إلى تشخيص؛ يمكن للجميع استخدامها!</strong>
 </p>
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="الترخيص"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/beefs/i-have-adhd?style=flat" alt="الترخيص"></a>
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 انسخ النص التالي والصقه في موجّه سطر الأوامر:
 
 ```text
-Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+Install the i-have-adhd skill/plugin from https://github.com/beefs/i-have-adhd, refer to the repo's AGENTS.md for instructions.
 ```
 
 أو 🔗 [راجع تعليمات التثبيت](../install/INSTALL.ar.md).
@@ -72,11 +72,10 @@ Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd,
 3. اختم بخطوة عملية واحدة تالية.
 4. تجنّب الخروج عن الموضوع.
 5. أعد توضيح الحالة في كل رد.
-6. قدّم تقديرات زمنية محددة بالدقائق، وتجنّب العبارات المبهمة مثل «قليلاً».
-7. وضّح ما أصبح يعمل بعد التغيير.
-8. اذكر الأخطاء بموضوعية.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد التغيير.
+7. اذكر الأخطاء بموضوعية.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 ## التخصيص
 

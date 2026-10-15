@@ -5,7 +5,7 @@
   <strong align="center">ตอบได้ใจความ ไม่ยืดเยื้อ จะสมาธิสั้นหรือไม่ก็เข้าใจได้!</strong>
 </p>
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="สัญญาอนุญาต"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/beefs/i-have-adhd?style=flat" alt="สัญญาอนุญาต"></a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 คัดลอกข้อความนี้ไปวางในพรอมต์ของ CLI:
 
 ```text
-Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+Install the i-have-adhd skill/plugin from https://github.com/beefs/i-have-adhd, refer to the repo's AGENTS.md for instructions.
 ```
 
 หรือ 🔗 [ดูวิธีติดตั้ง](../../INSTALL.md) (ภาษาอังกฤษ)
@@ -66,18 +66,17 @@ Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd,
 
 ## กฎการตอบ
 
-มีทั้งหมด 10 ข้อ อ่านฉบับเต็มได้ใน [SKILL.md](../../skills/i-have-adhd/SKILL.md)
+มีทั้งหมด 9 ข้อ อ่านฉบับเต็มได้ใน [SKILL.md](../../skills/i-have-adhd/SKILL.md)
 
 1. เริ่มต้นด้วยสิ่งที่ทำถัดไป
 2. ใช้หมายเลขกำกับในกรณีที่งานมีหลายขั้นตอน
 3. จบด้วยขั้นตอนถัดไปที่ชัดเจนหนึ่งอย่าง
 4. ตัดเนื้อหานอกประเด็นออก
 5. ทบทวนสถานะปัจจุบันในทุก ๆ ข้อความ
-6. ต้องระบุเวลาอย่างชัดเจน (ระบุเป็นจำนวนนาที ไม่ใช่แค่คำว่า “สักพักนะ”)
-7. ทำให้ความสำเร็จและความคืบหน้าชัดเจน
-8. อธิบายข้อผิดพลาดอย่างตรงไปตรงมา
-9. จำกัดรายการไม่เกิน 5 ข้อ
-10. ไม่มีคำนำ ไม่ต้องสรุปซ้ำ และไม่มีคำลงท้ายที่ไม่จำเป็น
+6. ทำให้ความสำเร็จและความคืบหน้าชัดเจน
+7. อธิบายข้อผิดพลาดอย่างตรงไปตรงมา
+8. จำกัดรายการไม่เกิน 5 ข้อ
+9. ไม่มีคำนำ ไม่ต้องสรุปซ้ำ และไม่มีคำลงท้ายที่ไม่จำเป็น
 
 ## ปรับแต่งเพิ่มเติม
 

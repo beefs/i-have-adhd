@@ -5,7 +5,7 @@
   <strong align="center">对 ADHD 友好的输出。无需确诊 ADHD！</strong>
 </p>
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="许可证"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/beefs/i-have-adhd?style=flat" alt="许可证"></a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 复制粘贴到你的 CLI 对话框中：
 
 ```text
-Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+Install the i-have-adhd skill/plugin from https://github.com/beefs/i-have-adhd, refer to the repo's AGENTS.md for instructions.
 ```
 
 或 🔗 [查看安装说明](../install/INSTALL.zh-CN.md)
@@ -70,18 +70,17 @@ Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd,
 
 ## 规则
 
-共 10 条规则。完整内容见 [SKILL.md](../../skills/i-have-adhd/SKILL.md)。
+共 9 条规则。完整内容见 [SKILL.md](../../skills/i-have-adhd/SKILL.md)。
 
 1. 先说下一步行动。
 2. 多步骤任务使用编号。
 3. 以一个具体的下一步收尾。
 4. 抑制离题内容。
 5. 每轮重述当前状态。
-6. 给出具体的时间估计（以分钟计，不说“一会儿”）。
-7. 让完成的工作看得见。
-8. 就事论事地报告错误。
-9. 每个列表最多 5 项。
-10. 不写开场白、回顾或结束语。
+6. 让完成的工作看得见。
+7. 就事论事地报告错误。
+8. 每个列表最多 5 项。
+9. 不写开场白、回顾或结束语。
 
 ## 自定义
 

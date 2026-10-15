@@ -5,7 +5,7 @@
   <strong align="center">Respuestas adaptadas para TDAH. ¡No se necesita diagnóstico de TDAH!</strong>
 </p>
 <p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="License"></a>
+  <a href="../../LICENSE"><img src="https://img.shields.io/github/license/beefs/i-have-adhd?style=flat" alt="License"></a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 Copia/pega en tu línea de comandos:
 
 ```text
-Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+Install the i-have-adhd skill/plugin from https://github.com/beefs/i-have-adhd, refer to the repo's AGENTS.md for instructions.
 ```
 
 O 🔗 [consulta las instrucciones de instalación](../../INSTALL.md).
@@ -69,18 +69,17 @@ Una *skill* para tu asistente de código que evita que entierre la respuesta. Ac
 
 ## Las reglas
 
-10 reglas. Texto completo en [SKILL.md](../../skills/i-have-adhd/SKILL.md).
+9 reglas. Texto completo en [SKILL.md](../../skills/i-have-adhd/SKILL.md).
 
 1. Empieza con la siguiente acción.
 2. Numera las tareas de varios pasos.
 3. Termina con un paso concreto a seguir.
 4. Suprime las tangentes.
 5. Reafirma el estado en cada turno.
-6. Estimaciones de tiempo específicas (minutos, no "un poco").
-7. Haz visibles los logros.
-8. Errores mostrados de forma directa (matter-of-fact).
-9. Limita las listas a 5 elementos.
-10. Sin preámbulos. Sin resúmenes. Sin frases de cierre.
+6. Haz visibles los logros.
+7. Errores mostrados de forma directa (matter-of-fact).
+8. Limita las listas a 5 elementos.
+9. Sin preámbulos. Sin resúmenes. Sin frases de cierre.
 
 ## Ajustarlo
 

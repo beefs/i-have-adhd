@@ -6,7 +6,7 @@
 ### Instalasi
 
 ```bash
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### Verifikasi
@@ -19,7 +19,7 @@ agy plugin list
 
 ```bash
 agy plugin uninstall i-have-adhd
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### Uninstal
@@ -44,11 +44,10 @@ Pembaca ini memiliki ADHD. Susun setiap respons agar mudah ditindaklanjuti, jang
 3. Akhiri dengan satu tindakan selanjutnya yang bisa diselesaikan dalam waktu kurang dari dua menit.
 4. Selesaikan masalah saat ini sebelum membahas masalah lain.
 5. Tegaskan kembali progres di setiap giliran (misalnya, "langkah 3 dari 5 selesai").
-6. Berikan estimasi waktu dalam satuan yang konkret, jangan pernah menggunakan kata seperti "sebentar".
-7. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
-8. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
-9. Batasi daftar hanya hingga 5 item.
-10. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
+6. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
+7. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
+8. Batasi daftar hanya hingga 5 item.
+9. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
 
 Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan tindakan yang bersifat destruktif. Setelah tiga kali percobaan perbaikan yang gagal, berhentilah dan identifikasi asumsi yang meragukan. Jika permintaan ambigu, ajukan satu pertanyaan singkat.
 ```
@@ -61,7 +60,7 @@ Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan
 ### Instalasi
 
 ```bash
-claude plugin marketplace add ayghri/i-have-adhd
+claude plugin marketplace add beefs/i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
 
@@ -119,7 +118,7 @@ Hook ini hanya berjalan ketika file penanda ada, jadi menginstal plugin saja tid
 ### Instalasi
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
+codex plugin marketplace add beefs/i-have-adhd --ref main
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
@@ -160,11 +159,10 @@ Pembaca memiliki ADHD. Susun setiap respons agar mudah ditindaklanjuti:
 3. Akhiri dengan satu tindakan selanjutnya yang bisa diselesaikan dalam waktu kurang dari dua menit.
 4. Selesaikan masalah saat ini sebelum membahas masalah lain.
 5. Tegaskan kembali progres di setiap giliran (misalnya, "langkah 3 dari 5 selesai").
-6. Berikan estimasi waktu dalam satuan yang konkret, jangan pernah menggunakan kata seperti "sebentar".
-7. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
-8. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
-9. Batasi daftar hanya hingga 5 item.
-10. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
+6. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
+7. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
+8. Batasi daftar hanya hingga 5 item.
+9. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
 
 Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan tindakan yang bersifat destruktif. Setelah tiga kali percobaan perbaikan yang gagal, berhentilah dan identifikasi asumsi yang meragukan. Jika permintaan ambigu, ajukan satu pertanyaan singkat.
 ```
@@ -180,7 +178,7 @@ Gemini CLI tidak memiliki marketplace plugin, jadi ada dua opsi bawaan: perintah
 
 ```bash
 mkdir -p ~/.gemini/commands
-curl -fsSL https://raw.githubusercontent.com/ayghri/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
+curl -fsSL https://raw.githubusercontent.com/beefs/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
   -o ~/.gemini/commands/i-have-adhd.toml
 ```
 
@@ -189,7 +187,7 @@ Mulai sesi baru dan ketik `/i-have-adhd`. Skill ini akan tetap aktif selama sesi
 ### Instalasi (ekstensi, always-on)
 
 ```bash
-gemini extensions install https://github.com/ayghri/i-have-adhd
+gemini extensions install https://github.com/beefs/i-have-adhd
 ```
 
 Ekstensi ini memuat `GEMINI.md`, yang mengimpor skill secara lengkap; dengan demikian, aturannya berlaku sejak pesan pertama. Git harus sudah terinstal.
@@ -227,14 +225,14 @@ Copilot membaca Agent Skills secara native: menggunakan file `SKILL.md` yang sam
 ### Instalasi
 
 ```bash
-npx skills add ayghri/i-have-adhd -a github-copilot        # proyek ini
-npx skills add ayghri/i-have-adhd -a github-copilot -g     # semua proyek
+npx skills add beefs/i-have-adhd -a github-copilot        # proyek ini
+npx skills add beefs/i-have-adhd -a github-copilot -g     # semua proyek
 ```
 
 Tanpa CLI, salin folder skill ke direktori mana pun yang diperiksa oleh Copilot:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.copilot/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.copilot/skills/
 ```
@@ -282,11 +280,10 @@ Pembaca memiliki ADHD. Susun setiap respons agar mudah ditindaklanjuti:
 3. Akhiri dengan satu tindakan selanjutnya yang bisa diselesaikan dalam waktu kurang dari dua menit.
 4. Selesaikan masalah saat ini sebelum membahas masalah lain.
 5. Tegaskan kembali progres di setiap giliran (misalnya, "langkah 3 dari 5 selesai").
-6. Berikan estimasi waktu dalam satuan yang konkret, jangan pernah menggunakan kata seperti "sebentar".
-7. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
-8. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
-9. Batasi daftar hanya hingga 5 item.
-10. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
+6. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
+7. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
+8. Batasi daftar hanya hingga 5 item.
+9. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
 
 Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan tindakan yang bersifat destruktif. Setelah tiga kali percobaan perbaikan yang gagal, berhentilah dan identifikasi asumsi yang meragukan. Jika permintaan ambigu, ajukan satu pertanyaan singkat.
 ```
@@ -299,7 +296,7 @@ Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan
 ### Instalasi
 
 ```bash
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 Ketik `/i-have-adhd`. Skill ini akan diinstal ke `~/.hermes/skills/` dan tersedia sebagai perintah slash saat sesi berikutnya dimulai.
@@ -307,9 +304,9 @@ Ketik `/i-have-adhd`. Skill ini akan diinstal ke `~/.hermes/skills/` dan tersedi
 Lebih suka menjelajah dulu? Tambahkan repositori ini sebagai sumber skill (sebagai "tap"), lalu cari dan instal:
 
 ```bash
-hermes skills tap add ayghri/i-have-adhd
+hermes skills tap add beefs/i-have-adhd
 hermes skills search adhd
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 ### Verifikasi
@@ -330,7 +327,7 @@ hermes skills update i-have-adhd
 hermes skills uninstall i-have-adhd
 ```
 
-Atau hapus juga tap-nya: `hermes skills tap remove ayghri/i-have-adhd`.
+Atau hapus juga tap-nya: `hermes skills tap remove beefs/i-have-adhd`.
 
 ### Selalu Aktif (opsional)
 
@@ -346,11 +343,10 @@ Pembaca memiliki ADHD. Susun setiap respons agar mudah ditindaklanjuti:
 3. Akhiri dengan satu tindakan selanjutnya yang bisa diselesaikan dalam waktu kurang dari dua menit.
 4. Selesaikan masalah saat ini sebelum membahas masalah lain.
 5. Tegaskan kembali progres di setiap giliran (misalnya, "langkah 3 dari 5 selesai").
-6. Berikan estimasi waktu dalam satuan yang konkret, jangan pernah menggunakan kata seperti "sebentar".
-7. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
-8. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
-9. Batasi daftar hanya hingga 5 item.
-10. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
+6. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
+7. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
+8. Batasi daftar hanya hingga 5 item.
+9. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
 
 Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan tindakan yang bersifat destruktif. Setelah tiga kali percobaan perbaikan yang gagal, berhentilah dan identifikasi asumsi yang meragukan. Jika permintaan ambigu, ajukan satu pertanyaan singkat.
 ```
@@ -366,7 +362,7 @@ Mulai sesi Kimi Code dan:
 
 1. Jalankan `/plugins`.
 2. Pilih **Custom**.
-3. Tempel `https://github.com/ayghri/i-have-adhd` dan tekan Enter.
+3. Tempel `https://github.com/beefs/i-have-adhd` dan tekan Enter.
 4. Pilih **Trust and install**.
 
 Gunakan perintah slash `/skill:i-have-adhd` untuk memanggil skill ini secara eksplisit.
@@ -391,7 +387,7 @@ Plugin mendukung OpenCode V1 **1.18.29 atau lebih baru** dan V2. Plugin mendafta
 Untuk digunakan di semua proyek:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
 mkdir -p ~/.config/opencode/plugins
 cat > ~/.config/opencode/plugins/i-have-adhd.js <<'EOF'
 export { default } from '../vendor/i-have-adhd/.opencode/plugins/i-have-adhd.mjs';
@@ -454,13 +450,13 @@ Pi mengimplementasikan standar Agent Skills, sehingga file `SKILL.md` yang sama 
 ### Instalasi
 
 ```bash
-npx skills add ayghri/i-have-adhd -a pi -y
+npx skills add beefs/i-have-adhd -a pi -y
 ```
 
 Lebih suka menggunakan sistem file? Pi menemukan skill di `~/.pi/agent/skills/` dan `~/.agents/skills/` (global), serta di `.pi/skills/` dan `.agents/skills/` (proyek):
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.pi/agent/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.pi/agent/skills/
 ```
@@ -511,11 +507,10 @@ Pembaca memiliki ADHD. Susun setiap respons agar mudah ditindaklanjuti:
 3. Akhiri dengan satu tindakan selanjutnya yang bisa diselesaikan dalam waktu kurang dari dua menit.
 4. Selesaikan masalah saat ini sebelum membahas masalah lain.
 5. Tegaskan kembali progres di setiap giliran (misalnya, "langkah 3 dari 5 selesai").
-6. Berikan estimasi waktu dalam satuan yang konkret, jangan pernah menggunakan kata seperti "sebentar".
-7. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
-8. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
-9. Batasi daftar hanya hingga 5 item.
-10. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
+6. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
+7. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
+8. Batasi daftar hanya hingga 5 item.
+9. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
 
 Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan tindakan yang bersifat destruktif. Setelah tiga kali percobaan perbaikan yang gagal, berhentilah dan identifikasi asumsi yang meragukan. Jika permintaan ambigu, ajukan satu pertanyaan singkat.
 ```
@@ -528,7 +523,7 @@ Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan
 ### Instalasi
 
 ```bash
-qwen extensions install ayghri/i-have-adhd
+qwen extensions install beefs/i-have-adhd
 ```
 
 Qwen Code menerima format singkat GitHub dan menginstal repositori sebagai ekstensi native. Ekstensi ini akan menemukan skill di dalam `skills/`.
@@ -573,7 +568,7 @@ Zed Agent membaca Agent Skills secara native: menggunakan file `SKILL.md` yang s
 Di Agent Panel, buka pengelola Skills, pilih **Create skill from URL** (juga tersedia di palet sebagai `agent: create skill from url`) dan tempel:
 
 ```
-https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
+https://github.com/beefs/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
 ```
 
 Simpan dengan cakupan **User** untuk semua proyek, atau **Project** untuk satu proyek tertentu. Setelah itu, ketik `/i-have-adhd` di Agent Panel.
@@ -581,7 +576,7 @@ Simpan dengan cakupan **User** untuk semua proyek, atau **Project** untuk satu p
 Lebih suka menggunakan sistem file? Klon repositori dan letakkan folder skill di direktori skill pengguna:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.agents/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.agents/skills/
 ```
@@ -612,11 +607,10 @@ Pembaca memiliki ADHD. Susun setiap respons agar mudah ditindaklanjuti:
 3. Akhiri dengan satu tindakan selanjutnya yang bisa diselesaikan dalam waktu kurang dari dua menit.
 4. Selesaikan masalah saat ini sebelum membahas masalah lain.
 5. Tegaskan kembali progres di setiap giliran (misalnya, "langkah 3 dari 5 selesai").
-6. Berikan estimasi waktu dalam satuan yang konkret, jangan pernah menggunakan kata seperti "sebentar".
-7. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
-8. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
-9. Batasi daftar hanya hingga 5 item.
-10. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
+6. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
+7. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
+8. Batasi daftar hanya hingga 5 item.
+9. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
 
 Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan tindakan yang bersifat destruktif. Setelah tiga kali percobaan perbaikan yang gagal, berhentilah dan identifikasi asumsi yang meragukan. Jika permintaan ambigu, ajukan satu pertanyaan singkat.
 ```
@@ -631,10 +625,10 @@ Berfungsi di lingkungan apa pun yang mendukung pembacaan Agent Skills. Ganti `-a
 ### Instalasi
 
 ```bash
-npx skills add ayghri/i-have-adhd                  # workspace ini
-npx skills add ayghri/i-have-adhd -g               # semua proyek
-npx skills add ayghri/i-have-adhd -a cursor -y     # satu agen saja
-npx skills add ayghri/i-have-adhd -a opencode -y
+npx skills add beefs/i-have-adhd                  # workspace ini
+npx skills add beefs/i-have-adhd -g               # semua proyek
+npx skills add beefs/i-have-adhd -a cursor -y     # satu agen saja
+npx skills add beefs/i-have-adhd -a opencode -y
 ```
 
 Buka obrolan agen baru dan ketik `/i-have-adhd`.
@@ -642,7 +636,7 @@ Buka obrolan agen baru dan ketik `/i-have-adhd`.
 Tanpa CLI, salin folder skill ke jalur yang diperiksa oleh agen Anda:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.cursor/skills     # Cursor. Gunakan .agents/skills di OpenCode atau jalur khusus agen Anda
 cp -R i-have-adhd/skills/i-have-adhd ~/.cursor/skills/
 ```
@@ -682,11 +676,10 @@ Pembaca memiliki ADHD. Susun setiap respons agar mudah ditindaklanjuti:
 3. Akhiri dengan satu tindakan selanjutnya yang bisa diselesaikan dalam waktu kurang dari dua menit.
 4. Selesaikan masalah saat ini sebelum membahas masalah lain.
 5. Tegaskan kembali progres di setiap giliran (misalnya, "langkah 3 dari 5 selesai").
-6. Berikan estimasi waktu dalam satuan yang konkret, jangan pernah menggunakan kata seperti "sebentar".
-7. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
-8. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
-9. Batasi daftar hanya hingga 5 item.
-10. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
+6. Setelah ada perubahan, tunjukkan apa yang sekarang berhasil berfungsi.
+7. Error: jelaskan lokasi, penyebab, dan solusinya, tanpa basa-basi.
+8. Batasi daftar hanya hingga 5 item.
+9. Tanpa pembukaan, ringkasan ulang, atau salam penutup.
 
 Pengecualian: jelaskan secara lengkap jika diminta. Konfirmasi sebelum melakukan tindakan yang bersifat destruktif. Setelah tiga kali percobaan perbaikan yang gagal, berhentilah dan identifikasi asumsi yang meragukan. Jika permintaan ambigu, ajukan satu pertanyaan singkat.
 ```

@@ -6,7 +6,7 @@
 ### تثبيت
 
 ```bash
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### تحقق
@@ -19,7 +19,7 @@ agy plugin list
 
 ```bash
 agy plugin uninstall i-have-adhd
-agy plugin install https://github.com/ayghri/i-have-adhd
+agy plugin install https://github.com/beefs/i-have-adhd
 ```
 
 ### إلغاء التثبيت
@@ -44,11 +44,10 @@ agy plugin uninstall i-have-adhd
 3. اختم بإجراء تالٍ واحد يمكن تنفيذه في أقل من دقيقتين.
 4. أنهِ المشكلة الحالية قبل طرح مشكلة جديدة.
 5. أعد توضيح التقدم في كل رد ("اكتملت الخطوة 3 من 5").
-6. قدّم تقديرات زمنية بوحدات محددة، ولا تقل "قليلاً".
-7. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
-8. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
+7. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 الاستثناءات: اشرح بالتفصيل عندما يُطلب منك ذلك. اطلب التأكيد قبل الإجراءات المدمرة. بعد ثلاث محاولات إصلاح فاشلة، توقّف وحدد الافتراض المشكوك فيه. إذا كان الطلب ملتبسًا، فاطرح سؤالاً قصيرًا واحدًا.
 ```
@@ -67,7 +66,7 @@ agy plugin uninstall i-have-adhd
 
 ### تثبيت
 
-1. قم بتنزيل [SKILL.md](https://raw.githubusercontent.com/ayghri/i-have-adhd/main/skills/i-have-adhd/SKILL.md) الأساسي واحفظه باسم `SKILL.md`. قم بمراجعة محتوياته قبل التحميل.
+1. قم بتنزيل [SKILL.md](https://raw.githubusercontent.com/beefs/i-have-adhd/main/skills/i-have-adhd/SKILL.md) الأساسي واحفظه باسم `SKILL.md`. قم بمراجعة محتوياته قبل التحميل.
 2. في AstronClaw، افتح **我的技能 (مهاراتي)**، واختر **新建 (جديد)**، وقم بتحميل ملف `.md`.
 3. تأكد من تسمية المهارة المستوردة `i-have-adhd`. استخدم **启用/禁用 (تمكين/تعطيل)** للتحكم في مدى توفرها.
 
@@ -117,7 +116,7 @@ Use the i-have-adhd skill for this conversation. Explain how to create an empty 
 ### تثبيت
 
 ```bash
-claude plugin marketplace add ayghri/i-have-adhd
+claude plugin marketplace add beefs/i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
 
@@ -176,7 +175,7 @@ rm ~/.claude/.i-have-adhd-always
 ### تثبيت
 
 ```bash
-codex plugin marketplace add ayghri/i-have-adhd --ref main
+codex plugin marketplace add beefs/i-have-adhd --ref main
 codex plugin add i-have-adhd@i-have-adhd
 ```
 
@@ -217,11 +216,10 @@ codex plugin marketplace remove i-have-adhd
 3. اختم بإجراء تالٍ واحد يمكن تنفيذه في أقل من دقيقتين.
 4. أنهِ المشكلة الحالية قبل طرح مشكلة جديدة.
 5. أعد توضيح التقدم في كل رد ("اكتملت الخطوة 3 من 5").
-6. قدّم تقديرات زمنية بوحدات محددة، ولا تقل "قليلاً".
-7. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
-8. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
+7. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 الاستثناءات: اشرح بالتفصيل عندما يُطلب منك ذلك. اطلب التأكيد قبل الإجراءات المدمرة. بعد ثلاث محاولات إصلاح فاشلة، توقّف وحدد الافتراض المشكوك فيه. إذا كان الطلب ملتبسًا، فاطرح سؤالاً قصيرًا واحدًا.
 ```
@@ -236,7 +234,7 @@ codex plugin marketplace remove i-have-adhd
 ### تثبيت
 
 ```bash
-grok plugin install ayghri/i-have-adhd --trust
+grok plugin install beefs/i-have-adhd --trust
 grok plugin enable i-have-adhd
 ```
 
@@ -279,11 +277,10 @@ grok plugin uninstall i-have-adhd --confirm
 3. اختم بإجراء تالٍ واحد يمكن تنفيذه في أقل من دقيقتين.
 4. أنهِ المشكلة الحالية قبل طرح مشكلة جديدة.
 5. أعد توضيح التقدم في كل رد ("اكتملت الخطوة 3 من 5").
-6. قدّم تقديرات زمنية بوحدات محددة، ولا تقل "قليلاً".
-7. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
-8. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
+7. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 الاستثناءات: اشرح بالتفصيل عندما يُطلب منك ذلك. اطلب التأكيد قبل الإجراءات المدمرة. بعد ثلاث محاولات إصلاح فاشلة، توقّف وحدد الافتراض المشكوك فيه. إذا كان الطلب ملتبسًا، فاطرح سؤالاً قصيرًا واحدًا.
 ```
@@ -299,7 +296,7 @@ grok plugin uninstall i-have-adhd --confirm
 
 ```bash
 mkdir -p ~/.gemini/commands
-curl -fsSL https://raw.githubusercontent.com/ayghri/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
+curl -fsSL https://raw.githubusercontent.com/beefs/i-have-adhd/main/skills/i-have-adhd/agents/gemini.toml \
   -o ~/.gemini/commands/i-have-adhd.toml
 ```
 
@@ -308,7 +305,7 @@ curl -fsSL https://raw.githubusercontent.com/ayghri/i-have-adhd/main/skills/i-ha
 ### التثبيت (امتداد، تشغيل دائم)
 
 ```bash
-gemini extensions install https://github.com/ayghri/i-have-adhd
+gemini extensions install https://github.com/beefs/i-have-adhd
 ```
 
 يحمّل الامتداد ملف `GEMINI.md`، الذي يستورد المهارة الكاملة، وبالتالي يتم تطبيق القواعد من الرسالة الأولى. يجب تثبيت `git`.
@@ -346,14 +343,14 @@ rm ~/.gemini/commands/i-have-adhd.toml     # طريقة الأمر
 ### تثبيت
 
 ```bash
-npx skills add ayghri/i-have-adhd -a github-copilot        # هذا المشروع
-npx skills add ayghri/i-have-adhd -a github-copilot -g     # جميع المشاريع
+npx skills add beefs/i-have-adhd -a github-copilot        # هذا المشروع
+npx skills add beefs/i-have-adhd -a github-copilot -g     # جميع المشاريع
 ```
 
 بدون واجهة سطر الأوامر (CLI)، انسخ مجلد المهارات إلى أي دليل يقوم Copilot بمسحه:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.copilot/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.copilot/skills/
 ```
@@ -401,11 +398,10 @@ npx skills remove i-have-adhd
 3. اختم بإجراء تالٍ واحد يمكن تنفيذه في أقل من دقيقتين.
 4. أنهِ المشكلة الحالية قبل طرح مشكلة جديدة.
 5. أعد توضيح التقدم في كل رد ("اكتملت الخطوة 3 من 5").
-6. قدّم تقديرات زمنية بوحدات محددة، ولا تقل "قليلاً".
-7. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
-8. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
+7. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 الاستثناءات: اشرح بالتفصيل عندما يُطلب منك ذلك. اطلب التأكيد قبل الإجراءات المدمرة. بعد ثلاث محاولات إصلاح فاشلة، توقّف وحدد الافتراض المشكوك فيه. إذا كان الطلب ملتبسًا، فاطرح سؤالاً قصيرًا واحدًا.
 ```
@@ -419,7 +415,7 @@ npx skills remove i-have-adhd
 ### تثبيت
 
 ```bash
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 اكتب `/i-have-adhd`. يتم تثبيت المهارة في `~/.hermes/skills/` ويتم عرضها كأمر يبدأ بشرطة مائلة في بداية الجلسة التالية.
@@ -427,9 +423,9 @@ hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
 هل تفضل التصفح أولا؟ أضف هذا المستودع كمصدر للمهارات (tap)، ثم ابحث وثبّت:
 
 ```bash
-hermes skills tap add ayghri/i-have-adhd
+hermes skills tap add beefs/i-have-adhd
 hermes skills search adhd
-hermes skills install ayghri/i-have-adhd/skills/i-have-adhd
+hermes skills install beefs/i-have-adhd/skills/i-have-adhd
 ```
 
 ### تحقق
@@ -450,7 +446,7 @@ hermes skills update i-have-adhd
 hermes skills uninstall i-have-adhd
 ```
 
-ولإزالة مصدر المهارات أيضًا: `hermes skills tap remove ayghri/i-have-adhd`.
+ولإزالة مصدر المهارات أيضًا: `hermes skills tap remove beefs/i-have-adhd`.
 
 ### تشغيل دائمًا (اختياري)
 
@@ -466,11 +462,10 @@ hermes skills uninstall i-have-adhd
 3. اختم بإجراء تالٍ واحد يمكن تنفيذه في أقل من دقيقتين.
 4. أنهِ المشكلة الحالية قبل طرح مشكلة جديدة.
 5. أعد توضيح التقدم في كل رد ("اكتملت الخطوة 3 من 5").
-6. قدّم تقديرات زمنية بوحدات محددة، ولا تقل "قليلاً".
-7. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
-8. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
+7. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 الاستثناءات: اشرح بالتفصيل عندما يُطلب منك ذلك. اطلب التأكيد قبل الإجراءات المدمرة. بعد ثلاث محاولات إصلاح فاشلة، توقّف وحدد الافتراض المشكوك فيه. إذا كان الطلب ملتبسًا، فاطرح سؤالاً قصيرًا واحدًا.
 ```
@@ -486,7 +481,7 @@ hermes skills uninstall i-have-adhd
 
 1. قم بتشغيل `/plugins`.
 2. اختر **مخصص**.
-3. الصق `https://github.com/ayghri/i-have-adhd` ثم اضغط على `Enter`.
+3. الصق `https://github.com/beefs/i-have-adhd` ثم اضغط على `Enter`.
 4. اختر **الثقة والتثبيت**.
 
 استخدم الأمر الذي يبدأ بشرطة مائلة `/skill:i-have-adhd` لاستدعاء المهارة بشكل صريح.
@@ -512,7 +507,7 @@ hermes skills uninstall i-have-adhd
 للاستخدام في جميع المشاريع:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd ~/.config/opencode/vendor/i-have-adhd
 mkdir -p ~/.config/opencode/plugins
 cat > ~/.config/opencode/plugins/i-have-adhd.js <<'EOF'
 export { default } from '../vendor/i-have-adhd/.opencode/plugins/i-have-adhd.mjs';
@@ -576,7 +571,7 @@ rm ~/.config/opencode/.i-have-adhd-always
 ### تثبيت
 
 ```bash
-pi install https://github.com/ayghri/i-have-adhd
+pi install https://github.com/beefs/i-have-adhd
 ```
 
 ابدأ جلسة Pi جديدة. بدّل الإخراج المناسب لـ ADHD للجلسة الحالية:
@@ -618,7 +613,7 @@ pi list
 ### تحديث
 
 ```bash
-pi update https://github.com/ayghri/i-have-adhd
+pi update https://github.com/beefs/i-have-adhd
 ```
 
 أو قم بتحديث كل حزمة Pi غير المثبّتة بإصدار محدد باستخدام `pi update --extensions`.
@@ -626,7 +621,7 @@ pi update https://github.com/ayghri/i-have-adhd
 ### إلغاء التثبيت
 
 ```bash
-pi remove https://github.com/ayghri/i-have-adhd
+pi remove https://github.com/beefs/i-have-adhd
 ```
 
 ### تشغيل دائمًا (اختياري)
@@ -672,7 +667,7 @@ rm ~/.pi/agent/.i-have-adhd-always
 ### تثبيت
 
 ```bash
-omp plugin marketplace add ayghri/i-have-adhd
+omp plugin marketplace add beefs/i-have-adhd
 omp plugin install --scope user i-have-adhd@i-have-adhd
 ```
 
@@ -701,7 +696,7 @@ omp plugin marketplace remove i-have-adhd
 ### تثبيت
 
 ```bash
-qwen extensions install ayghri/i-have-adhd
+qwen extensions install beefs/i-have-adhd
 ```
 
 يدعم Qwen Code اختصار GitHub ويثبّت المستودع كامتداد أصلي. يكتشف الامتداد المهارة تحت `skills/`.
@@ -747,7 +742,7 @@ qwen extensions uninstall i-have-adhd
 في لوحة الوكيل، افتح مدير المهارات واختر **إنشاء مهارة من عنوان URL** (أيضًا في لوحة الأوامر باسم `agent: create skill from url`)، ثم الصق:
 
 ```
-https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
+https://github.com/beefs/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
 ```
 
 احفظها في نطاق **المستخدم** لجميع المشاريع، أو في نطاق **المشروع** لمشروع واحد. ثم اكتب `/i-have-adhd` في لوحة الوكيل.
@@ -755,7 +750,7 @@ https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md
 تفضل نظام الملفات؟ استنسخ المستودع وضَع مجلد المهارات في دليل مهارات المستخدم الخاص بك:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.agents/skills
 cp -R i-have-adhd/skills/i-have-adhd ~/.agents/skills/
 ```
@@ -786,11 +781,10 @@ cp -R i-have-adhd/skills/i-have-adhd ~/.agents/skills/
 3. اختم بإجراء تالٍ واحد يمكن تنفيذه في أقل من دقيقتين.
 4. أنهِ المشكلة الحالية قبل طرح مشكلة جديدة.
 5. أعد توضيح التقدم في كل رد ("اكتملت الخطوة 3 من 5").
-6. قدّم تقديرات زمنية بوحدات محددة، ولا تقل "قليلاً".
-7. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
-8. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
+7. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 الاستثناءات: اشرح بالتفصيل عندما يُطلب منك ذلك. اطلب التأكيد قبل الإجراءات المدمرة. بعد ثلاث محاولات إصلاح فاشلة، توقّف وحدد الافتراض المشكوك فيه. إذا كان الطلب ملتبسًا، فاطرح سؤالاً قصيرًا واحدًا.
 ```
@@ -805,10 +799,10 @@ cp -R i-have-adhd/skills/i-have-adhd ~/.agents/skills/
 ### تثبيت
 
 ```bash
-npx skills add ayghri/i-have-adhd                  # مساحة العمل هذه
-npx skills add ayghri/i-have-adhd -g               # جميع المشاريع
-npx skills add ayghri/i-have-adhd -a cursor -y     # وكيل واحد فقط
-npx skills add ayghri/i-have-adhd -a opencode -y
+npx skills add beefs/i-have-adhd                  # مساحة العمل هذه
+npx skills add beefs/i-have-adhd -g               # جميع المشاريع
+npx skills add beefs/i-have-adhd -a cursor -y     # وكيل واحد فقط
+npx skills add beefs/i-have-adhd -a opencode -y
 ```
 
 في محادثة جديدة مع الوكيل، اكتب `/i-have-adhd`.
@@ -816,7 +810,7 @@ npx skills add ayghri/i-have-adhd -a opencode -y
 بدون واجهة سطر الأوامر (CLI)، انسخ مجلد المهارات إلى أي مسار يفحصه وكيلك:
 
 ```bash
-git clone https://github.com/ayghri/i-have-adhd
+git clone https://github.com/beefs/i-have-adhd
 mkdir -p ~/.cursor/skills     # استخدم .agents/skills مع OpenCode أو المسار الخاص بوكيلك
 cp -R i-have-adhd/skills/i-have-adhd ~/.cursor/skills/
 ```
@@ -856,11 +850,10 @@ npx skills remove i-have-adhd -g    # إذا ثُبّتت عالميًا
 3. اختم بإجراء تالٍ واحد يمكن تنفيذه في أقل من دقيقتين.
 4. أنهِ المشكلة الحالية قبل طرح مشكلة جديدة.
 5. أعد توضيح التقدم في كل رد ("اكتملت الخطوة 3 من 5").
-6. قدّم تقديرات زمنية بوحدات محددة، ولا تقل "قليلاً".
-7. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
-8. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
-9. اجعل القوائم في حدود خمسة عناصر.
-10. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
+6. وضّح ما أصبح يعمل بعد إجراء أي تغيير.
+7. عند حدوث خطأ، اذكر مكانه وسببه وطريقة إصلاحه بلا تهويل.
+8. اجعل القوائم في حدود خمسة عناصر.
+9. لا مقدمات، ولا إعادة تلخيص، ولا عبارات ختامية.
 
 الاستثناءات: اشرح بالتفصيل عندما يُطلب منك ذلك. اطلب التأكيد قبل الإجراءات المدمرة. بعد ثلاث محاولات إصلاح فاشلة، توقّف وحدد الافتراض المشكوك فيه. إذا كان الطلب ملتبسًا، فاطرح سؤالاً قصيرًا واحدًا.
 ```
